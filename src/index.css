@@ -23,16 +23,28 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  margin: 24px;
+    display: flex;
+    min-height: 100vh;
+    color: black;
+    font-size: 18px;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0 auto;
+  padding: 0;
 }
 
 button {

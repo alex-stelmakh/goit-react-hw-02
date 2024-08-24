@@ -1,0 +1,11 @@
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    margin-bottom: 12px;
+}
+
+.btn {
+    text-transform: capitalize;
+    font-size: 18px;
+}
